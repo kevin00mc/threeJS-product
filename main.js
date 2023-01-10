@@ -1,20 +1,20 @@
 import "./style.css";
 import * as THREE from "three";
-// import * as dat from "lil-gui";
+import * as dat from "./node_modules/lil-gui/dist/lil-gui.esm";
 
 /**
  * デバッグ(色つけるときに追加)
  */
-// const gui = new dat.GUI();
+const gui = new dat.GUI();
 
-// const parameters = {
-//   materialColor: "#ffffff",
-// };
+const parameters = {
+  materialColor: "#ffffff",
+};
 
-// gui.addColor(parameters, "materialColor").onChange(() => {
-//   material.color.set(parameters.materialColor);
-//   particlesMaterial.color.set(parameters.materialColor);
-// });
+gui.addColor(parameters, "materialColor").onChange(() => {
+  material.color.set(parameters.materialColor);
+  particlesMaterial.color.set(parameters.materialColor);
+});
 
 // Canvas
 const canvas = document.querySelector("#webgl");
