@@ -1,6 +1,6 @@
 import "./style.css";
 import * as THREE from "three";
-import * as dat from "./node_modules/lil-gui/dist/lil-gui.esm";
+import * as dat from "lil-gui";
 
 /**
  * デバッグ(色つけるときに追加)
