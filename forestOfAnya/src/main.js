@@ -327,7 +327,7 @@ class HackNSlashDemo {
   }
 
   _LoadFoliage() {
-    for (let i = 0; i < 700; ++i) {
+    for (let i = 0; i < 200; ++i) {
       const names = [
           'CommonTree_Dead','CommonTree','BirchTree','BirchTree_Dead','PineTree','Rock','Rock_Moss','PalmTree'
       ];
@@ -359,7 +359,7 @@ class HackNSlashDemo {
   }
 
   _LoadFoliage2() {
-    for (let i = 0; i < 500; ++i) {
+    for (let i = 0; i < 200; ++i) {
       const names = [
         'Rock','Rock_Moss','Willow','Bush','BushBerries'
       ];
@@ -391,7 +391,7 @@ class HackNSlashDemo {
   }
 
   _LoadGrass() {
-    for (let i = 0; i < 200; ++i) {
+    for (let i = 0; i < 30; ++i) {
       const names = [
         'Grass','Grass_2','Grass_Short','Flowers'
       ];
@@ -585,7 +585,7 @@ class HackNSlashDemo {
       this._entityManager.Add(npc);
     }
   
-    for (let i = 0; i < 25; ++i) {
+    for (let i = 0; i < 5; ++i) {
       const dinos = [
         'Apatosaurus','Parasaurolophus','Stegosaurus',
         'Trex','Triceratops','Velociraptor'
