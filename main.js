@@ -1,6 +1,11 @@
+
+
 import "./style.css";
+// import * as THREE from "C:/Users/tnaga/AppData/Local/Microsoft/TypeScript/4.9/node_modules/@types/three/index";
 import * as THREE from "three";
 import * as dat from "lil-gui";
+
+
 
 /**
  * デバッグ(色つけるときに追加)
