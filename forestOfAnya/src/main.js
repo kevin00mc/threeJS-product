@@ -391,7 +391,7 @@ class HackNSlashDemo {
   }
 
   _LoadGrass() {
-    for (let i = 0; i < 2000; ++i) {
+    for (let i = 0; i < 200; ++i) {
       const names = [
         'Grass','Grass_2','Grass_Short','Flowers'
       ];
@@ -585,7 +585,7 @@ class HackNSlashDemo {
       this._entityManager.Add(npc);
     }
   
-    for (let i = 0; i < 50; ++i) {
+    for (let i = 0; i < 25; ++i) {
       const dinos = [
         'Apatosaurus','Parasaurolophus','Stegosaurus',
         'Trex','Triceratops','Velociraptor'
